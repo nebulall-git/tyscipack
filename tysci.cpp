@@ -17,7 +17,13 @@ int main(int argc,char** argv)
             (new VersionActuator())->Execute();
         break;
     default:
+        std::cout<<argc<<std::endl;
+        for(int i=0;i<argc;i++)
+        {
+            std::cout<<argvstr[i]<<std::endl;
+        }
         break;
     }
+    std::cin.get();
     return 0;
 }
