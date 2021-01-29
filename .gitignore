@@ -1,3 +1,7 @@
-# ignore Build folder
+# ignore folder
 /Build/
 /.vscode/
+
+
+# mark.txt is used to add the Build directory into git
+!/Build/mark.txt
