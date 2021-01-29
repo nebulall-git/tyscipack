@@ -1,0 +1,1 @@
+The Build Directory is used to hold the built application assemblies 
